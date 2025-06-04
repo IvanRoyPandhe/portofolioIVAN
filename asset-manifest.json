@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portofolioIVAN/static/css/main.e6c13ad2.css",
-    "main.js": "/portofolioIVAN/static/js/main.a75552e9.js",
+    "main.js": "/portofolioIVAN/static/js/main.9e91b962.js",
     "static/js/453.1407b060.chunk.js": "/portofolioIVAN/static/js/453.1407b060.chunk.js",
     "index.html": "/portofolioIVAN/index.html",
     "main.e6c13ad2.css.map": "/portofolioIVAN/static/css/main.e6c13ad2.css.map",
-    "main.a75552e9.js.map": "/portofolioIVAN/static/js/main.a75552e9.js.map",
+    "main.9e91b962.js.map": "/portofolioIVAN/static/js/main.9e91b962.js.map",
     "453.1407b060.chunk.js.map": "/portofolioIVAN/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a75552e9.js"
+    "static/js/main.9e91b962.js"
   ]
 }
