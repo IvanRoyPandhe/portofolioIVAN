@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Ivan's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React to showcase my skills, projects, and certificates.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive design that works on all devices
+- Modern UI with smooth animations
+- Sections for About, Projects, and Certificates
+- Easy to customize and update
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (v14 or higher)
+- npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+```
+git clone https://github.com/yourusername/portfolio.git
+```
 
-### `npm run build`
+2. Navigate to the project directory
+```
+cd portfolio
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the development server
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your browser and visit `http://localhost:3000`
 
-### `npm run eject`
+## Customization
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Adding Your Photo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Place your profile photo in the `public/images/` directory
+2. Update the image path in the `Hero.js` component
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Adding Projects
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Edit the projects array in the `Projects.js` component to add your own projects:
 
-## Learn More
+```javascript
+const projects = [
+  {
+    id: 1,
+    title: 'Your Project Title',
+    description: 'Project description',
+    image: '/images/projects/your-project-image.jpg',
+    technologies: ['React', 'Node.js', 'etc'],
+    githubLink: 'https://github.com/yourusername/project',
+    liveLink: 'https://your-project-url.com'
+  },
+  // Add more projects...
+];
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Adding Certificates
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Edit the certificates array in the `Certificates.js` component to add your own certificates:
 
-### Code Splitting
+```javascript
+const certificates = [
+  {
+    id: 1,
+    title: 'Certificate Title',
+    issuer: 'Issuing Organization',
+    date: 'Month Year',
+    image: '/images/certificates/your-certificate-image.jpg',
+    verificationLink: 'https://verification-url.com'
+  },
+  // Add more certificates...
+];
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Deployment
 
-### Analyzing the Bundle Size
+To build the project for production:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm run build
+```
 
-### Making a Progressive Web App
+This will create a `build` folder with all the optimized files ready for deployment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Built With
 
-### Advanced Configuration
+- [React](https://reactjs.org/) - Frontend library
+- [React Router](https://reactrouter.com/) - For navigation
+- [Styled Components](https://styled-components.com/) - For styling
+- [React Icons](https://react-icons.github.io/react-icons/) - For icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License
