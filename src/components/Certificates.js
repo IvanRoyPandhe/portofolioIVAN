@@ -176,21 +176,21 @@ const Certificates = () => {
       issuer: 'SMK NEGERI 1 Prigen',
       date: '2023',
       description: 'Design wired and wireless-based networks with VLAN and Routing implementation.',
-      image: '/images/certificates/network-cert.jpg'
+      image: process.env.PUBLIC_URL + '/images/certificates/network-cert.jpg'
     },
     {
       title: 'AWS CendikiAwan Certification',
       issuer: 'MSIB 7 PT TIM with Amazon Web Services',
       date: '2023',
       description: 'Cloud Architecture certification from AWS CendikiAwan program, demonstrating knowledge of AWS cloud services and architecture design.',
-      image: '/images/certificates/aws-cert.jpg'
+      image: process.env.PUBLIC_URL + '/images/certificates/aws-cert.jpg'
     },
     {
       title: 'English Course Certificate',
       issuer: 'The Eagle English Course & Interpeace',
       date: '2023',
       description: 'Completed English language proficiency course in Pare, enhancing communication skills for professional environments.',
-      image: '/images/certificates/english-cert.jpg'
+      image: process.env.PUBLIC_URL + '/images/certificates/english-cert.jpg'
     }
   ];
 

@@ -204,7 +204,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.5 }}
         >
           <HeroImage>
-            <img src="/images/profile.png" alt="Ivan's Profile" />
+            <img src={process.env.PUBLIC_URL + "/images/profile.png"} alt="Ivan's Profile" />
           </HeroImage>
         </HeroImageContainer>
       </HeroContainer>

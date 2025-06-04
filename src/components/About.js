@@ -328,7 +328,7 @@ const About = () => {
           >
             <AboutImage>
               <div className="wrapper">
-                <img src="/images/profile.png" alt="Ivan" className="img" />
+                <img src={process.env.PUBLIC_URL + "/images/profile.png"} alt="Ivan" className="img" />
               </div>
             </AboutImage>
           </motion.div>

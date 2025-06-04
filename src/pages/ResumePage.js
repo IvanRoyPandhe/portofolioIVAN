@@ -94,7 +94,7 @@ const ResumePage = () => {
           <ResumeText>
             Here you can download my resume to learn more about my experience, skills, and qualifications.
           </ResumeText>
-          <DownloadButton href="/files/ivan-resume.pdf" target="_blank" rel="noopener noreferrer">
+          <DownloadButton href={process.env.PUBLIC_URL + "/files/ivan-resume.pdf"} target="_blank" rel="noopener noreferrer">
             <FaFileDownload /> Download Resume
           </DownloadButton>
         </ResumeCard>
